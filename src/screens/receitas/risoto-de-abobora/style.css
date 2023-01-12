@@ -1,0 +1,73 @@
+#root {
+    margin-top: 8%;
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+    overflow-x: hidden;
+}
+main {
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: start;
+}
+main h1{
+    font-size: var(--font-size-big);
+    color: var(--dark-primary-color);
+}
+#card-risoto-de-abobora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#card-risoto-de-abobora img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tags {
+    text-align: center;
+    min-width: 200px;
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid var(--bg-button);
+    color: var(--bg-button);
+    font-weight: bold;
+}
+ul li {
+    list-style: none;
+}
+.modo-de-preparo {
+    width: 500px;
+}
+aside {
+    margin:top 4%;
+    cursor: pointer;
+}
+aside h2 {
+    color: var(--dark-primary-color);
+    font-weight: 700;
+    font-size: 32PX;
+    margin-bottom: 20PX;
+}
+aside article {
+    margin-bottom: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    width: 100%;
+
+}
+aside article strong {
+   font-size: 22px; 
+}

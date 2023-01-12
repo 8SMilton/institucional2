@@ -1,0 +1,24 @@
+header div {
+    background-color: var(--primary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    justify-content: center;
+    z-index: 1000;
+    position: relative;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    background-color: var(--dark-primary-color);
+}
+header nav a {
+    margin: 0px 10px;
+    color: #fff;
+    font-weight: bold;
+}
+header nav a:hover {
+        color: indigo;
+        transition: 04s;
+    }
